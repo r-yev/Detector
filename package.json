@@ -1,0 +1,36 @@
+{
+  "name": "detector",
+  "type": "commonjs",
+  "description": "Identify technology on websites",
+  "keywords": [
+    "analyze",
+    "identify",
+    "detect",
+    "detector",
+    "technology",
+    "cms",
+    "framework",
+    "library",
+    "software"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "driver.js",
+  "files": [
+    "cli.js",
+    "categories.json",
+    "driver.js",
+    "index.js",
+    "technologies/*",
+    "detector.js"
+  ],
+  "bin": {
+    "detector": "./cli.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.4.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
