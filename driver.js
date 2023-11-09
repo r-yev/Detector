@@ -1478,4 +1478,7 @@ class Site {
   }
 }
 
-module.exports = Driver
+module.exports = {
+  Driver,
+  Site
+}
